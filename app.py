@@ -80,3 +80,4 @@ from PIL import Image
 # Show the image below the results
 image = Image.open("Image.png")
 st.image(image, caption="Pavement Build-Up Diagram", use_container_width=True)
+
