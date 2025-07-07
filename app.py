@@ -4,8 +4,8 @@ import pandas as pd
 from PIL import Image
 
 # Load images
-image_ab = Image.open("System A or B.png")
-image_c = Image.open("System C.png")
+image_ab = Image.open("images/System A or B.png")
+image_c = Image.open("images/System C.png")
 
 # Set page config
 st.set_page_config(page_title="Permeable Paving Build-Up Tool", layout="centered")
